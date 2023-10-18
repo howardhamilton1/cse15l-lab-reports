@@ -5,11 +5,12 @@
 
 ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/d115b03e-ac03-4dd1-99ff-355b9f9e547e)
 
-I got that output because, when cd is used with no arguments, it leaves the current directory and back to the default terminal. This is not an error.
+I got that output because, when cd is used with no arguments, it leaves the current directory and returns to the home directory. This is not an error.
 
 2.
 
-![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/9ef481d9-b2bc-462a-b047-e61a9851e480)
+![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/ceef2614-9c7b-49c5-81d5-caee2061f41b)
+
 
 I got that output because, when cd is used with a path to a directory as an argument, it changes the directory to match the one stated. This is not an error.
 
@@ -22,7 +23,8 @@ I got that output because, when cd is used with a path to a file as an argument,
 ## ls
 1.
 
- ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/4243234c-3fc8-4f79-ab33-3f7c61820c25)
+ ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/0c7837f6-a178-4eaf-942b-a73331d9ba26)
+
 
 I got that output because, when ls is used with no arguments, it shows the names of the files and folders inside the current working directory. This is not an error.
 
@@ -51,7 +53,7 @@ I got that output because, when cat is used with no arguments, it waits for an i
 ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/d780fc81-dfd7-44e8-963a-05fc38958562)
 
 
-I got that output because, when cat is used with a path to a directory as an argument, it declares that it is a directory. This is not an error.
+I got that output because, when cat is used with a path to a directory as an argument, it declares that it is a directory. This is an error because cat is used to show the contents of a file, and it is not able to do that with a directory. The message displayed is an error message notifying the user that cat cannot be used on a directory.
 
 3.
 
