@@ -15,13 +15,13 @@ For this screenshot, because this was ran after the previous screenshot, the int
 
 ---
 # Part 2
-1. ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/91d4824c-4820-4fa3-83d0-b50bced46d0c)
+* ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/91d4824c-4820-4fa3-83d0-b50bced46d0c)
 
     id_rsa is the private key, and the path is C:\Users\hslha\.ssh\id_rsa
-2. ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/e0219ed8-b026-4f59-b17d-41cee5fe2075)
+* ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/e0219ed8-b026-4f59-b17d-41cee5fe2075)
 
     id_rsa.pub is the public key, and the path is /home/linux/ieng6/cs15lfa23/cs15lfa23lg/.ssh/id_rsa.pub
-3. ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/b2094abd-a9ce-4a78-a947-d1dee4c63ead)
+* ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/b2094abd-a9ce-4a78-a947-d1dee4c63ead)
 
    I'm not sure why all of those quota statements are there, but I'm able to log into ieng6 without being asked for a password.
 
