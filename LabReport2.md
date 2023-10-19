@@ -1,4 +1,5 @@
-# Part 1
+# Lab Report 2
+## Part 1
 **StringServer Code:**
 ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/95481af3-b9d0-4377-a3a6-81082ac5a93c)
 For my StringServer code I used the NumberServer code from Week 2's lab work as a guideline for how my code should look and work.
@@ -14,7 +15,7 @@ For this screenshot, the int variable num starts off as 0 and the String variabl
 For this screenshot, because this was ran after the previous screenshot, the int variable num starts off as 1 and the String variable messages starts off as "1. Hi\n". After I typed "/add-message?s=Hello" to the end of the url, the  method handleRequest(URI url) was called, and it ran pretty much the same as how the previous screenshot did. This time, however, after the "if (parameters[0].equals("s"))" statement runs, the num variable is incremented by 1 again, and it adds " num + ". " + parameters[1] + "\n" " to the messages variable once again. Since num is now 2, and parameters[1] is the string after the "=" in the query ("Hello"), the messages variable is now "1. Hi\n2. Hello\n". Because of the "\n" strings in the messages variable, "1. Hi" and "2. Hello" will display on different lines, and anything added to messages afterwards will begin on a new line. After that statement, it returned messages, which displays the messages variable on the website, as the image above shows.
 
 ---
-# Part 2
+## Part 2
 * ![image](https://github.com/howardhamilton1/cse15l-lab-reports/assets/141745300/91d4824c-4820-4fa3-83d0-b50bced46d0c)
 
     id_rsa is the private key, and the path is C:\Users\hslha\.ssh\id_rsa
@@ -27,5 +28,5 @@ For this screenshot, because this was ran after the previous screenshot, the int
 
 
 ---
-# Part 3
+## Part 3
 Something I learned from lab in week 3 is the mkdir command, which I did not know beforehand. I learned that its primary use is to make new directories. Furthermore, after running man mkdir, I learned other features of the command. For example, mkdir can be used to create multiple new directories with one line, and this is done by adding spaces between the names of the new directories when using mkdir (E.g. "mkdir dir1 dir2 dir3" creates three new directories with their respective names).
