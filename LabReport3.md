@@ -69,7 +69,7 @@ At first, the reversed() method would create a new array where every element con
 ## Part 2 - Researching Commands
 **Command: find**
 
-1. -size
+* -size
 
 This flag finds files and directories in Linux based on their size occupied in the memory.
 
@@ -88,7 +88,7 @@ In this case, the find command searches through the technical directory for file
 
 In this case, the find command searches through files (not directories) and returns those with a size less than 1 MB. This means that the command allows you to search for files that have a size above or below what you are looking for, which is useful for searching for files that are very large or small.
 
-2. -iname
+* -iname
 
 This option is similar to -name because it is used to specify the name of the file or folder, although it is not case sensitive.
 
@@ -106,7 +106,7 @@ In this case, the find command searches through the technical directory for a fi
 
 In this case, the find command searches for a file or directory that starts with "go", and several end up being found in this example. This is useful because, if you don't remember the exact name of a file or directory, then you can still search for them without it being case sensitive.
 
-3. -maxdepth
+* -maxdepth
 
 With this option, you can limit the depth of searches. You're able to choose number of directories you want find to descend into after the starting point.
 
@@ -124,7 +124,7 @@ In this case, the find command searches for a file within 1 directory of the tec
 
 In this case, the find command searches for directories that are within 2 directories of the technical directory, which is limited to the technical directory itself, directories inside technical, and directories inside of those directories. This is useful because it allows you to limit your searches to be at a certain point, which makes for more efficient searching.
 
-4. -empty
+* -empty
 
 This flag is used to search for files and directories that are empty.
 
