@@ -110,7 +110,7 @@ In this case, the find command searches for a file or directory that starts with
 
 With this option, you can limit the depth of searches. You're able to choose number of directories you want find to descend into after the starting point.
 
-Source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)https://www.redhat.com/sysadmin/linux-find-command
+Source: [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
 
 *Ex:*
 
@@ -128,7 +128,7 @@ In this case, the find command searches for directories that are within 2 direct
 
 This flag is used to search for files and directories that are empty.
 
-Source: [https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/](https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/)https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/
+Source: [https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/](https://www.freecodecamp.org/news/how-to-search-files-effectively-in-linux/)
 
 *Ex:*
 
